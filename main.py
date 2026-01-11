@@ -2,6 +2,7 @@ from src.data import fetch_price_data
 from src.metrics import compute_portfolio_metrics
 from src.visualize import plot_prices, plot_risk_return
 import pandas as pd
+import matplotlib.pyplot as plt
 
 prices = fetch_price_data(
     tickers=["AAPL", "MSFT", "GOOG"],
@@ -19,3 +20,4 @@ metrics_df = pd.DataFrame({
 
 plot_prices(prices)
 plot_risk_return(metrics_df["Annual Return"], metrics_df["Annual Volatility"], metrics_df["Sharpe Ratio"])
+
