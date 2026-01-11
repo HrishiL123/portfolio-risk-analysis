@@ -5,8 +5,8 @@ import pandas as pd
 
 prices = fetch_price_data(
     tickers=["AAPL", "MSFT", "GOOG"],
-    start="2023-01-01",
-    end="2023-12-31"
+    start="2024-01-01",
+    end="2025-12-31"
 )
 
 annual_return, annual_volatility, sharpe_ratio = compute_portfolio_metrics(prices)
