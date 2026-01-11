@@ -28,12 +28,3 @@ A Python-based tool that fetches real-time stock data, calculates portfolio retu
 git clone https://github.com/YOUR_USERNAME/portfolio-risk-analysis.git
 cd portfolio-risk-analysis
 
-## Example Output
-
-**Price Trends**  
-
-![Price Trends](plots/prices.png)
-
-**Risk vs Return**  
-
-![Risk vs Return](plots/risk_return.png)
